@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPMM Link Collection</title>
+    <style>
+        /* General body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        /* Title styling */
+        h1 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 40px;
+        }
+
+        /* Container for the buttons */
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        /* Styling for each button */
+        .category-button {
+            background-color: #007BFF;
+            color: white;
+            font-size: 18px;
+            padding: 15px 30px;
+            width: 250px;
+            text-align: center;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        /* Button hover effects */
+        .category-button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+
+        /* Button active effect */
+        .category-button:active {
+            transform: scale(0.98);
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 600px) {
+            .button-container {
+                width: 100%;
+                padding: 10px;
+            }
+
+            .category-button {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CPMM Link Collection</h1>
+    <div class="button-container">
+        <!-- FILLING button with link -->
+        <a href="https://hanthu407.github.io/qrcollection/" class="category-button">FILLING</a>
+        <a href="#" class="category-button">MAKING</a>
+        <a href="#" class="category-button">TUBE FORMING</a>
+        <a href="#" class="category-button">PRINTING</a>
+        <a href="#" class="category-button">WAREHOUSE</a>
+    </div>
+
+</body>
+</html>
